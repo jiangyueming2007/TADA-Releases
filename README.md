@@ -6,11 +6,11 @@ TADA 是一款集世界动态、友人交流、私聊、群组和 AI 对话于�
 
 ## 下载
 
-[下载 TADA 0.3.7 测试版](https://github.com/jiangyueming2007/TADA-Releases/releases/tag/v0.3.7)
+[下载 TADA 0.3.8 测试版](https://github.com/jiangyueming2007/TADA-Releases/releases/tag/v0.3.8)
 
-下载 Release 中的 `TADA-0.3.7.apk`，直接覆盖安装。请保留已有应用及其数据。
+下载 Release 中的 `TADA-0.3.8.apk`，直接覆盖安装。请保留已有应用及其数据。
 
-如果旧版在应用内更新时报“解析软件包时出现问题”，请用系统浏览器打开此下载页，下载后从浏览器下载列表或文件管理器确认覆盖安装一次。
+若安装时提示“解析软件包时出现问题”，请删除下载失败的 APK 文件后重新下载，核对文件大小和 SHA256。不要卸载 TADA 或清除应用数据。
 
 ## 功能
 
@@ -23,7 +23,10 @@ TADA 是一款集世界动态、友人交流、私聊、群组和 AI 对话于�
 
 私聊、群聊和私密附件默认端到端加密；公开动态由服务器处理。
 
-## 0.3.7 更新
+## 0.3.8 更新
+
+- 修复部分 Android 设备启动后一直加载、无法进入的问题。
+- 完善初始化异常提示和重试入口，保留已有账号与消息。
 
 - 增加手机与 Windows 同时登录的设备提示和管理，可单独退出其他登录设备。
 - 改善登录续期与离线提示，登录过期时保留本机聊天记录，并提供重新验证入口。
@@ -33,9 +36,9 @@ TADA 是一款集世界动态、友人交流、私聊、群组和 AI 对话于�
 
 ## 安装包校验
 
-- 文件：`TADA-0.3.7.apk`
-- 大小：118647943 字节
-- SHA256：`7fa0e93a9941336f9d1e1428a66f20b80f4d2513a02b0e2f85b860b0ea80b91f`
+- 文件：`TADA-0.3.8.apk`
+- 大小：118762631 字节
+- SHA256：`282476082d6301bd4f90fc4e5baa7ccd65bacc20e3ce268b1bd52ee5e00579ec`
 - Android 签名证书 SHA256：`c824876eb39e015d5acaf26286c617ddef04abb1b1ad2e1d99bb6afc4dd38bc4`
 
-Windows 可使用 `Get-FileHash .\TADA-0.3.7.apk -Algorithm SHA256` 核对下载文件。
+Windows 可使用 `Get-FileHash .\TADA-0.3.8.apk -Algorithm SHA256` 核对下载文件。
